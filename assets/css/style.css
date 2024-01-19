@@ -671,11 +671,6 @@ nav .small-menu {
   padding: 50px;
   padding-bottom: 100px !important;
 }
-@media screen and (max-width: 940px) {
-  .service-container {
-    padding: 30px 10px;
-  }
-}
 .service-container .service-row .service-col {
   margin: auto;
   display: inline-block;
@@ -713,6 +708,33 @@ nav .small-menu {
   min-height: 100px;
   max-height: 150px;
   padding: 15px;
+}
+@media screen and (max-width: 1060px) {
+  .service-container {
+    padding: 30px 10px;
+  }
+	.service-container .service-row .service-col {
+	  margin: auto;
+	  display: inline-block;
+	  width: 75%;
+	  height: 100%;
+	  filter: drop-shadow(0 0 0.25rem black);
+	  background-color: #444;
+	  text-align: center;
+	  padding-bottom:25px;
+	}
+	.service-container .service-row .service-col .service-text{
+	  display:block;
+	  color: #fff;
+	  margin: auto;
+	  font-size: 1.15rem;
+	  text-align: center;
+	  margin-top: 5px;
+	  min-height: 40px;
+	  max-height: 150px;
+	  padding: 15px;
+	  margin-bottom: 25px;
+	}
 }
 
 /* ===================================== Quote CSS ================================== */
