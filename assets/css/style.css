@@ -142,7 +142,7 @@ strong {
 }
 
 body {
-  background-color: #999 !important;
+  background-color: #2e2e2e !important;
   font-family: "Glacial Indifference", "Open Sans", sans-serif;
   color: #fff;
   width: 100%;
@@ -491,7 +491,7 @@ nav .small-menu {
 .banner-container {
   background-image: url(../images/horizontal.png);
   background-size: 100%;
-  height: 50%;
+  height: 45%;
   background-position: center;
 }
 @media screen and (max-width: 1100px) {
@@ -685,19 +685,33 @@ nav .small-menu {
   background-color: #444;
   text-align: center;
 }
-.service-container .service-row .service-col h6 {
+.service-container .service-row .service-col .service-title {
+  display:block;
+	color: #fff;
   margin: auto;
   font-size: 1.3rem;
   font-weight: 600;
-  padding-top: 10px;
+  padding-top: 7px;
   font-family: "Glacial Indifference", "Open Sans", sans-serif;
 }
-.service-container .service-row .service-col p {
+.service-main-title {
+  display:block;
+	color: #fff;
   margin: auto;
-  font-size: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 7px;
+  font-family: "Glacial Indifference", "Open Sans", sans-serif;
+}
+.service-container .service-row .service-col .service-text{
+  display:block;
+  color: #fff;
+  margin: auto;
+  font-size: 1.15rem;
+  text-align: center;
   margin-top: 5px;
   min-height: 100px;
-  max-height: 100px;
+  max-height: 150px;
   padding: 15px;
 }
 
